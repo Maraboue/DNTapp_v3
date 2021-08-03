@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.39040d4c.chunk.css",
-    "main.js": "./static/js/main.b89ffdb6.chunk.js",
-    "main.js.map": "./static/js/main.b89ffdb6.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.57485665.js",
-    "runtime-main.js.map": "./static/js/runtime-main.57485665.js.map",
+    "main.css": "./static/css/main.cc094029.chunk.css",
+    "main.js": "./static/js/main.3e25f2d5.chunk.js",
+    "main.js.map": "./static/js/main.3e25f2d5.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.16ad7635.js",
+    "runtime-main.js.map": "./static/js/runtime-main.16ad7635.js.map",
     "static/css/2.ae9e5f60.chunk.css": "./static/css/2.ae9e5f60.chunk.css",
-    "static/js/2.62ecef80.chunk.js": "./static/js/2.62ecef80.chunk.js",
-    "static/js/2.62ecef80.chunk.js.map": "./static/js/2.62ecef80.chunk.js.map",
-    "static/js/3.63a42c70.chunk.js": "./static/js/3.63a42c70.chunk.js",
-    "static/js/3.63a42c70.chunk.js.map": "./static/js/3.63a42c70.chunk.js.map",
+    "static/js/2.8da98cab.chunk.js": "./static/js/2.8da98cab.chunk.js",
+    "static/js/2.8da98cab.chunk.js.map": "./static/js/2.8da98cab.chunk.js.map",
+    "static/js/3.df284a62.chunk.js": "./static/js/3.df284a62.chunk.js",
+    "static/js/3.df284a62.chunk.js.map": "./static/js/3.df284a62.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.ae9e5f60.chunk.css.map": "./static/css/2.ae9e5f60.chunk.css.map",
-    "static/css/main.39040d4c.chunk.css.map": "./static/css/main.39040d4c.chunk.css.map",
-    "static/js/2.62ecef80.chunk.js.LICENSE.txt": "./static/js/2.62ecef80.chunk.js.LICENSE.txt",
+    "static/css/main.cc094029.chunk.css.map": "./static/css/main.cc094029.chunk.css.map",
+    "static/js/2.8da98cab.chunk.js.LICENSE.txt": "./static/js/2.8da98cab.chunk.js.LICENSE.txt",
     "static/media/IMG_3699.eba8f258.PNG": "./static/media/IMG_3699.eba8f258.PNG",
     "static/media/bg.d3cadcf3.jpg": "./static/media/bg.d3cadcf3.jpg",
     "static/media/moon.22aa4ef0.png": "./static/media/moon.22aa4ef0.png",
@@ -23,10 +23,10 @@
     "static/media/video3.af6f522a.mp4": "./static/media/video3.af6f522a.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.57485665.js",
+    "static/js/runtime-main.16ad7635.js",
     "static/css/2.ae9e5f60.chunk.css",
-    "static/js/2.62ecef80.chunk.js",
-    "static/css/main.39040d4c.chunk.css",
-    "static/js/main.b89ffdb6.chunk.js"
+    "static/js/2.8da98cab.chunk.js",
+    "static/css/main.cc094029.chunk.css",
+    "static/js/main.3e25f2d5.chunk.js"
   ]
 }

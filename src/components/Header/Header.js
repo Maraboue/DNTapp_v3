@@ -6,7 +6,7 @@ import './Header.css'
 import React, {useState, useEffect, Component} from "react";
 
 
-function Header() {
+const Header = (props) =>{
 
 let bg1 = document.getElementById("bg");
 let moon1 = document.getElementById("moon");

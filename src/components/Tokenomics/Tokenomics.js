@@ -3,8 +3,6 @@ import './Tokenomics.css'
 import PieChart from "./PieChart";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import video3 from "../../videos/video3.mp4";
-import {VideoBg} from "../HeroSection/HeroElements";
 
 
 AOS.init( {

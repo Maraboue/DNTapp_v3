@@ -11,8 +11,7 @@ class NavigationBar extends Component{
 
         return(
 
-
-            <nav className="NavigationBarItems">
+           <nav className="NavigationBarItems">
                 <Link className="NavigationBar-Logo" to="DNT" smooth={true} duration={1000}>Dynamic Network
                 </Link>
             <VideoBg id="NavLogo" autoPlay loop muted src={video1} type='video/mp4'/>

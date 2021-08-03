@@ -42,23 +42,23 @@ class Cards extends React.Component {
 
                         <h3>Gustaf Sjölinder</h3>
                         <a href="https://www.linkedin.com/in/gustaf-sj%C3%B6linder-64084714a/">
-                            <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png"/>
+                            <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png" alt="Twitter"/>
                         </a>
                         <a href="https://www.linkedin.com/in/gustaf-sj%C3%B6linder-64084714a/">
-                            <img src="https://img.icons8.com/fluent/48/000000/github.png"/>
+                            <img src="https://img.icons8.com/fluent/48/000000/github.png" alt="Github"/>
                         </a>
                         <a href="https://www.linkedin.com/in/gustaf-sj%C3%B6linder-64084714a/">
-                            <img src="https://img.icons8.com/color/48/000000/linkedin-circled--v3.png"/>
+                            <img src="https://img.icons8.com/color/48/000000/linkedin-circled--v3.png" alt="Linkedin"/>
                         </a>
 
-                        <p>Gustaf is an computer engineer who has been in crypto since 2013. With a passion for coding and economics, crypto became his greatest interest early on.<br/><br/>
+                        <p>Gustaf is a computer engineer who has been in crypto since 2013. With a passion for coding and economics, crypto became his greatest interest early on.<br/><br/>
                             What started as a thesis project for a degree in computer engineering he later evolved into the Dynamic Network, with the vision of a more
                             secure way for people to invest in the crypto space. With the other members of the team, he will now do everything to pursuit this vision.</p>
 
 
                     </Tilt>
                     <Tilt div id="card" className="card">
-                        <h2>Marketing & Design</h2>
+                        <h2>Marketing & Human Relations</h2>
                         <img src={graph} alt="loading..." />
                         <h3>Kajsa Gyllhamn</h3>
                         <a href="https://www.linkedin.com/in/gustaf-sj%C3%B6linder-64084714a/">
@@ -70,9 +70,9 @@ class Cards extends React.Component {
                         <a href="https://www.linkedin.com/in/gustaf-sj%C3%B6linder-64084714a/">
                             <img src="https://img.icons8.com/color/48/000000/linkedin-circled--v3.png"/>
                         </a>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<br/>
-                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
-                        making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+                        <p> Kajsa is an open hearted person who has an interest and a degree in human relations & behaviour.<br/><br/>
+                            She thinks that crypto gives people freedom and the opportunity to invest in themselves while building relationships and securing their financial future.
+                            Kajsas role in this project is helping the team with the administrative work while also building and managing relations for the project.</p>
 
                     </Tilt>
                     <Tilt div id="card" className="card">

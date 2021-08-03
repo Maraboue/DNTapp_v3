@@ -1,6 +1,9 @@
 import './App.css';
 
 import React, {Component, useEffect, useRef} from 'react';
+
+
+// Browser Components
 import NavigationBar from "./components/Navbar/NavigationBar";
 import Cards from './components/Team/Cards';
 import Tokenomics from "./components/Tokenomics/Tokenomics";
@@ -11,17 +14,63 @@ import Header from "./components/Header/Header";
 import Login from "./components/Login/login";
 import Community from "./components/Community/Community";
 
+// Mobile Components
+import NavBarMobile from "./components/Navbar/NavBarMobile";
+import HeaderMobile from "./components/Header/HeaderMobile";
+import TokenomicsMobile from "./components/Tokenomics/TokenomicsMobile";
+import LoginMobile from "./components/Login/LoginMobile";
+import AboutMobile from "./components/About/AboutMobile";
+import CardsMobile from './components/Team/CardsMobile';
+import RoadMapMobile from "./components/RoadMap/RoadMapMobile";
+import FooterMobile from "./components/Footer/FooterMobile";
 
+
+import {BrowserView, MobileView, isBrowser, isMobile} from "react-device-detect";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
     class App extends React.Component {
 
+        renderContent = () => {
+            if (isMobile) {
+                return <div> <MobileView>
+                    <section className="DNT" id="DNT">
+                    <div className="dynamic-network-site">
+                        <NavBarMobile/>
+                    </div>
+                    <div data-aos="fade">
+                        <HeaderMobile />
+                    </div>
+                    <div data-aos="fade-up"
+                         data-aos-duration="4000">
+                        <TokenomicsMobile/>
+                    </div>
+                    <div data-aos="fade-up"
+                         data-aos-duration="4000">
+                        <AboutMobile/>
+                    </div>
+                    <div data-aos="fade-up"
+                         data-aos-duration="4000">
+                        <CardsMobile/>
+                    </div>
+                    <div data-aos="fade-up"
+                         data-aos-duration="4000">
+                        <RoadMapMobile/>
+                    </div>
+
+                    <div data-aos="fade-up"
+                         data-aos-duration="4000">
+                        <FooterMobile/>
+                    </div>
+                    </section>
+                </MobileView>
 
 
-        render() {
-            return (
-
+                </div>
+            }
+            if(isBrowser){}
+            return <div>
                 <section className="DNT" id="DNT">
-                    <div className="App">
+                    <div className="App" >
                         <div className="dynamic-network-site">
                             <NavigationBar/>
                         </div>
@@ -30,40 +79,47 @@ import Community from "./components/Community/Community";
                         <div id="Header" className="HeaderSection" data-aos="fade">
                             <Header/>
                         </div>
-                            <div id="HeroSection" className="HeroSection" data-aos="fade-up"
-                                 data-aos-duration="4000">
-                                <Login/>
-                            </div>
-                            <div id="Tokenomics-info" className="Tokenomics-info" data-aos="fade-up"
-                                 data-aos-duration="4000">
-                                <Tokenomics/>
-                            </div>
-                            <div className="AboutSection" data-aos="fade-up"
-                                 data-aos-duration="4000">
-                                <About/>
-                            </div>
-                            <div className="team-cards" data-aos="fade-up"
-                                 data-aos-duration="4000">
-                                <Cards/>
-                            </div>
+                        <div id="HeroSection" className="HeroSection" data-aos="fade-up"
+                             data-aos-duration="4000">
+                            <Login/>
+                        </div>
+                        <div id="Tokenomics-info" className="Tokenomics-info" data-aos="fade-up"
+                             data-aos-duration="4000">
+                            <Tokenomics/>
+                        </div>
+                        <div className="AboutSection" data-aos="fade-up"
+                             data-aos-duration="4000">
+                            <About/>
+                        </div>
+                        <div className="team-cards" data-aos="fade-up"
+                             data-aos-duration="4000">
+                            <Cards/>
+                        </div>
 
-                            <div className="RoadMap" data-aos="fade-up"
-                                 data-aos-duration="4000">
-                                <RoadMap/>
-                            </div>
+                        <div className="RoadMap" data-aos="fade-up"
+                             data-aos-duration="4000">
+                            <RoadMap/>
+                        </div>
 
-                             <div className="Community" data-aos="fade-up"
-                                data-aos-duration="4000">
-                                <Community/>
-                             </div>
+                        <div className="Community" data-aos="fade-up"
+                             data-aos-duration="4000">
+                            <Community/>
+                        </div>
 
-                            <div className="Footer">
-                                <Footer/>
-                            </div>
+                        <div className="Footer">
+                            <Footer/>
+                        </div>
                         </body>
                     </div>
                 </section>
-            );
+            </div>
+        }
+
+
+        render() {
+            return this.renderContent();
         }
     }
+
+
 export default App;
