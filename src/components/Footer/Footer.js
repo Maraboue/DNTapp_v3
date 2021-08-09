@@ -26,7 +26,7 @@ const Footer = () => {
                         <Heading>About Us</Heading>
                         <FooterLink href="#">Aim</FooterLink>
                         <FooterLink href="#">Vision</FooterLink>
-                        <FooterLink href="#">Testimonials</FooterLink>
+                        <FooterLink href="https://docs.google.com/document/d/e/2PACX-1vQzA6xMEXmCYq4tD0ME-t24BBj4bDVx14lvL1oj3MHpDKb41DIdfwvhR79NxmrKXtpKzVVME1VxGjrj/pub">Research</FooterLink>
                     </Column>
                     <Column>
                         <Heading>Services</Heading>
@@ -45,11 +45,11 @@ const Footer = () => {
                     <Column>
                         <div className="Footer-img">
                         <Heading>Social Media</Heading>
-                        <FooterLink href="#">
-                            <i className="fab fa-facebook-f">
+                        <FooterLink href="https://discord.gg/tFUCZYw3Jp">
+                            <i className="fab fa-discord-f">
                 <span style={{ marginLeft: "10px" }}>
-                  Facebook
-                    <img  src="https://img.icons8.com/color/48/000000/facebook-new.png"/>
+                  Discord
+                    <img src="https://img.icons8.com/color/50/000000/discord-new-logo.png"/>
                 </span>
                             </i>
                         </FooterLink>

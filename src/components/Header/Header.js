@@ -3,10 +3,10 @@ import moon from "../../pictures/moon.png";
 import mountain from "../../pictures/mountain.png";
 import road from "../../pictures/road.png";
 import './Header.css'
-import React, {useState, useEffect, Component} from "react";
+import React, {useState, useEffect} from "react";
 
 
-const Header = (props) =>{
+const Header = () =>{
 
 let bg1 = document.getElementById("bg");
 let moon1 = document.getElementById("moon");

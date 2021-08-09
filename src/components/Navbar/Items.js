@@ -16,7 +16,7 @@ export const items = [
     },
 
     {
-        title: 'Road Map',
+        title: 'RoadMap',
         url: 'roadmap',
         name: 'nav-links'
     }

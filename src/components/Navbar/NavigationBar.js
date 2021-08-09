@@ -29,13 +29,15 @@ class NavigationBar extends Component{
 
                     })}
                     <NavDropdown className="nav-links" title="Docs" id="collapsible-nav-dropdown">
-                        <NavDropdown.Item id="DropItem" className="nav-links" to="about" smooth={true} duration={1000}>Whitepaper</NavDropdown.Item>
+                        <NavDropdown.Item id="DropItem" className="nav-links" to="tokenomics" smooth={true} duration={1000}>Whitepaper</NavDropdown.Item>
                         <NavDropdown.Divider id="NavDropdown.Divider"></NavDropdown.Divider>
                         <NavDropdown.Item id="DropItem" className="nav-links" href="https://github.com/Maraboue">Github</NavDropdown.Item>
                         <NavDropdown.Divider></NavDropdown.Divider>
-                        <NavDropdown.Item id="DropItem" className="nav-links" href="https://docs.google.com/document/d/1PnlvT0UaUZ-whGDdCQxVHIDpWTdLBVGWA_aXIQSEHC8/edit">Research & Results</NavDropdown.Item>
+                        <NavDropdown.Item id="DropItem" className="nav-links" href="https://docs.google.com/document/d/e/2PACX-1vQzA6xMEXmCYq4tD0ME-t24BBj4bDVx14lvL1oj3MHpDKb41DIdfwvhR79NxmrKXtpKzVVME1VxGjrj/pub">Research & Results</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item id="DropItem" className="nav-links" href="https://discord.gg/KHd93nfG">Discord</NavDropdown.Item>
+                        <NavDropdown.Item id="DropItem" className="nav-links" href="https://discord.gg/tFUCZYw3Jp">Discord </NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item id="DropItem" className="nav-links" href="https://dynamic-network.medium.com/">Medium</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item id="DropItem" className="nav-links" href="https://www.coingecko.com/en/coins/chainlink">Buy DNT</NavDropdown.Item>
                     </NavDropdown>

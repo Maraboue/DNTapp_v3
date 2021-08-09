@@ -1,8 +1,9 @@
 import React, {Component, useEffect,useRef} from 'react';
 import VanillaTilt from 'vanilla-tilt';
 import './Card.css'
-import graph from "../../pictures/IMG_3699.PNG";
-
+import graph from "../../pictures/image0.png";
+import graph1 from "../../pictures/image1.png";
+import graph2 from "../../pictures/image2.png";
 function Tilt(props) {
     const { options, ...rest } = props;
     const tilt = useRef(null);
@@ -29,7 +30,7 @@ class Cards extends React.Component {
                         <h1>The Dynamic Team</h1>
                         <p>
                             The Dynamic Network Team is a small team with a large vision.
-                            Consisting of three computer engineers from the Royal Institute of Technology in Sweden,
+                            Consisting of three computer engineers and one human relations expert,
                             we have decided to take on the task of reducing volatility and provide a safer store of value
                             for the crypto community.
                         </p>
@@ -59,55 +60,55 @@ class Cards extends React.Component {
                     </Tilt>
                     <Tilt div id="card" className="card">
                         <h2>Marketing & Human Relations</h2>
-                        <img src={graph} alt="loading..." />
+                        <img src={graph1} alt="loading..." />
                         <h3>Kajsa Gyllhamn</h3>
                         <a href="https://www.linkedin.com/in/gustaf-sj%C3%B6linder-64084714a/">
-                            <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png"/>
+                            <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png" alt="Twitter"/>
                         </a>
                         <a href="https://www.linkedin.com/in/gustaf-sj%C3%B6linder-64084714a/">
-                            <img src="https://img.icons8.com/fluent/48/000000/github.png"/>
+                            <img src="https://img.icons8.com/fluent/48/000000/github.png" alt="Github"/>
                         </a>
                         <a href="https://www.linkedin.com/in/gustaf-sj%C3%B6linder-64084714a/">
-                            <img src="https://img.icons8.com/color/48/000000/linkedin-circled--v3.png"/>
+                            <img src="https://img.icons8.com/color/48/000000/linkedin-circled--v3.png" alt="Linkedin"/>
                         </a>
                         <p> Kajsa is an open hearted person who has an interest and a degree in human relations & behaviour.<br/><br/>
                             She thinks that crypto gives people freedom and the opportunity to invest in themselves while building relationships and securing their financial future.
                             Kajsas role in this project is helping the team with the administrative work while also building and managing relations for the project.</p>
-
+                        <br/>
                     </Tilt>
                     <Tilt div id="card" className="card">
                         <h2>Developer & Advisor</h2>
                         <img src={graph} alt="loading..." />
                         <h3>Carl-Bernhard Hallberg</h3>
                         <a href="https://www.linkedin.com/in/gustaf-sj%C3%B6linder-64084714a/">
-                            <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png"/>
+                            <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png" alt="Twitter"/>
                         </a>
                         <a href="https://www.linkedin.com/in/gustaf-sj%C3%B6linder-64084714a/">
-                            <img src="https://img.icons8.com/fluent/48/000000/github.png"/>
+                            <img src="https://img.icons8.com/fluent/48/000000/github.png" alt="Github"/>
                         </a>
                         <a href="https://www.linkedin.com/in/gustaf-sj%C3%B6linder-64084714a/">
-                            <img src="https://img.icons8.com/color/48/000000/linkedin-circled--v3.png"/>
+                            <img src="https://img.icons8.com/color/48/000000/linkedin-circled--v3.png" alt="Linkedin"/>
                         </a>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<br/>
                             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
                             making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
-
+                            <br/><br/>
                     </Tilt>
 
                     <Tilt div id="card" className="card">
-                        <h2>Marketing & Adivsor</h2>
-                        <img src={graph} alt="loading..." />
+                        <h2>Developer & Adivsor</h2>
+                        <img src={graph2} alt="loading..." />
                         <h3>Philip Retelius</h3>
                         <a href="https://www.linkedin.com/in/gustaf-sj%C3%B6linder-64084714a/">
-                            <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png"/>
+                            <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png" alt="Twitter"/>
                         </a>
                         <a href="https://www.linkedin.com/in/gustaf-sj%C3%B6linder-64084714a/">
-                            <img src="https://img.icons8.com/fluent/48/000000/github.png"/>
+                            <img src="https://img.icons8.com/fluent/48/000000/github.png" alt="Github"/>
                         </a>
                         <a href="https://www.linkedin.com/in/gustaf-sj%C3%B6linder-64084714a/">
-                            <img src="https://img.icons8.com/color/48/000000/linkedin-circled--v3.png"/>
+                            <img src="https://img.icons8.com/color/48/000000/linkedin-circled--v3.png" alt="Linkedin"/>
                         </a>
-                        <p>Philip is an computer engineer with work experience in development and management of embedded technologies, as well as software technologies.
+                        <p>Philip is a computer engineer with work experience in development and management of embedded technologies, as well as software technologies.
                             With a deep interest for new technical concepts and the strategic development that comes with it, Philip will serve in an advisory role.<br/><br/>
                             Philip joined the project with the interest of seeing and creating a product that could shape the future of crypto and society as a whole.</p>
 

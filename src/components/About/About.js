@@ -1,9 +1,11 @@
 import './About.css'
 import React, {Component} from "react";
 
-class About extends Component {
 
-    render() {
+
+
+
+const About = () =>  {
 
         return (
             <section className="about_section" id="about">
@@ -107,18 +109,16 @@ class About extends Component {
                             <br/><br/>
                             Over time, our vision lies in the hands of the Dynamic Network community. We are eager to see
                             what kind of experiences the users in the network has to tell, and how we from these experiences can
-                            continue to build the Dynamic Network to be even better.
+                            continue to build the Dynamic Network to be even better. This could include things such as building dApps, integrate
+                            DNT somewhere or build a DEX etc.
                             <br/><br/>
                             Nothing in this world is completely perfect. Therefore we believe in a continuous journey for the Dynamic Network.
                             This journey we believe will be filled with new tasks and a never ending strive towards becoming better. This will,
                             as been stated, come from within the community itself.
-
-                            <br/><br/>Various versions have evolved over the years, sometimes by accident,
-                            sometimes on purpose (injected humour and the like). It is a long established fact that a
-                            reader will be distracted by the readable content of a page when looking at its layout.
-                            The point of using Lorem Ipsum is that it has a more-or-less normal distribution Various
-                            versions have evolved over the years, sometim
-                            .</p></div>
+                            <br/><br/>
+                            Now we are eager to hear from you, the community, and what ideas you can bring to the Dynamic Network. Together
+                            we can build a a network with the abilities to disrupt the current financial paradigm!
+                            </p></div>
 
 
                 </div>
@@ -126,5 +126,5 @@ class About extends Component {
                 </body>
             </section>
         )
-    }
-} export default About;
+
+}; export default About;

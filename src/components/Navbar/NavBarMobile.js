@@ -24,8 +24,8 @@ function NavBarMobile() {
                     <ul className='nav-menu-items' onClick={showSidebar}>
                         <li className='navbar-toggle'>
                             <Link to='#' className='menu-bars'>
-                                <AiIcons.AiOutlineClose/>
-                            </Link>
+                                <div className="closeTag"> <AiIcons.AiOutlineClose/></div>
+                                </Link>
                         </li>
                         {SidebarData.map((item, index) => {
                             return (

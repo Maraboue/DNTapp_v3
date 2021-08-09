@@ -11,6 +11,7 @@ import {
 
 const FooterMobile = () => {
     return (
+        <section className="footer_section" id="footermobile">
         <Box>
             <h1 style={{ color: "#008fb3",
                 textAlign: "center",
@@ -26,7 +27,7 @@ const FooterMobile = () => {
                         <Heading>About Us</Heading>
                         <FooterLink href="#">Aim</FooterLink>
                         <FooterLink href="#">Vision</FooterLink>
-                        <FooterLink href="#">Testimonials</FooterLink>
+                        <FooterLink href="#">Research</FooterLink>
                     </Column>
                     <Column>
                         <Heading>Services</Heading>
@@ -45,11 +46,11 @@ const FooterMobile = () => {
                     <Column>
                         <div className="Footer-img">
                             <Heading>Social Media</Heading>
-                            <FooterLink href="#">
-                                <i className="fab fa-facebook-f">
+                            <FooterLink href="https://discord.gg/tFUCZYw3Jp">
+                                <i className="fab fa-discord-f">
                 <span style={{ marginLeft: "10px" }}>
-                  Facebook
-                    <img  src="https://img.icons8.com/color/48/000000/facebook-new.png"/>
+                  Discord
+                    <img  src="https://img.icons8.com/color/50/000000/discord-new-logo.png"/>
                 </span>
                                 </i>
                             </FooterLink>
@@ -74,6 +75,7 @@ const FooterMobile = () => {
                 </Row>
             </Container>
         </Box>
+        </section>
     );
 };
 export default FooterMobile;

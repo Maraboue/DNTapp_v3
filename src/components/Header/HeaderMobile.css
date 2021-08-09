@@ -60,22 +60,25 @@
 
 
 #textM {
-    position: absolute;
+    position: fixed;
     font-size: 2em;
     text-shadow: -1px 0 whitesmoke, 0 1px black, 1px 0 black, 0 -1px black;
-    margin-top: -350px;
+    top: 50px;
+    margin-left: 35px;
 }
 #text1M {
-    position: absolute;
+    position: fixed;
     font-size: 1.2em;
     text-shadow: -1px 0 whitesmoke, 0 1px black, 1px 0 black, 0 -1px black;
-    margin-top: -300px;
+    top: 125px;
+    margin-left: 125px;
 }
 #text2M {
     position: fixed;
     font-size: 1.2em;
     text-shadow: -1px 0 whitesmoke, 0 1px black, 1px 0 black, 0 -1px black;
-    margin-top: -250px;
+    top: 160px;
+    margin-left: 35px;
 }
 
 

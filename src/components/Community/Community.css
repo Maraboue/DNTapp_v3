@@ -1,4 +1,48 @@
-.CommunityHeader {
+.CommunityContainer{
+
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    box-sizing: border-box;
+    padding-bottom: 250px;
+    padding-top: 250px;
+    grid-gap: 20px;
+
+}
+
+.CommunityItem{
+    position: relative;
+    margin-top: -400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 40%;
+    padding-right: 20px;
+    margin-right: 10px;
+    background: rgba(255,255,255,0.1);
+    color: black;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    font-size: 1.2em;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.CommunityItem:hover{
+
+    background: linear-gradient(whitesmoke,#e6f3ff, whitesmoke);
+    color: black;
+    box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 10px #2196f3;
+    overflow: hidden;
+}
+
+.CommunityHeader{
     padding-bottom: 20px;
     font-size: 2.5em;
     color: #61dafb;
@@ -6,65 +50,32 @@
     alignment: center;
     margin-top: 100px;
     margin-bottom: 200px;
-
 }
 
-.CommunityContainer {
+#logo{
 
-    display: grid;
-    position: relative;
-    grid-template-columns: auto auto auto;
-    align-items: center;
-
+    width: 6%;
+    margin-left: 15px;
 }
 
-.CommunityItem {
-
-    position: relative;
-    width: 75%;
-    height:200px;
-    padding-left: 35px;
-    padding-right: 35px;
-    margin: 50px 50px 500px 50px;
-    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
-    border-radius: 15px;
-    background: rgba(255,255,255,0.1);
-    overflow: hidden;
-    border-top: 1px solid rgba(255,255,255,0.5);
-    border-left: 1px solid rgba(255,255,255,0.5);
-    backdrop-filter: blur(5px);
-
-}
-
- #background-video{
-
-    height: 100%;
-    width: 100%;
-    float: left;
-    top: 0;
-    padding: 0;
-    position: fixed;
-
-
+#plus{
+    width: 3%;
+    margin-left: 10px;
 }
 
 .CommunityItem h2{
-    color: #476098;
-    padding-top: 20px;
+    margin-top: 25px;
     font-family: monospace;
-}
-
-.CommunityItem ul {
-    color: #11d811;
-    padding-top: 20px;
-    letter-spacing: 3px;
     font-size: 2em;
-    font-weight: bold;
+    color: #476098;
 }
 
-.CommunityItem:hover {
+.CommunityItem p{
+    margin-top: 25px;
+    align-content: center;
+}
 
-    color: #255784;
-    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3 ;
-
+.CommunityItem img{
+    margin-top: 20px;
+    align-content: center;
 }

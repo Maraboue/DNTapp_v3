@@ -3,10 +3,10 @@ import moon from "../../pictures/moon.png";
 import mountain from "../../pictures/mountain.png";
 import road from "../../pictures/road.png";
 import './HeaderMobile.css'
-import React, {useState, useEffect, Component} from "react";
+import React, {useState, useEffect} from "react";
 
 
-const HeaderMobile = (props) =>{
+const HeaderMobile = () =>{
 
     let bg1 = document.getElementById("bg");
     let moon1 = document.getElementById("moon");
@@ -33,7 +33,7 @@ const HeaderMobile = (props) =>{
                 <img src={moon} id="moonM"style={{ transform: `translateY(${offsetY * 1.2}px)` }}/>
                 <img src={mountain} id="mountain" style={{ transform: `translateY(${offsetY * 0.5}px)` }}/>
                 <img src={road} id="road"style={{ transform: `translateY(${offsetY * 0.5}px)` }} />
-                <h2 id="textM" className="gradient-text"> Dynamic Network Token.</h2>
+                <h2 id="textM" className="gradient-text">Dynamic Network Token.</h2>
                 <h4 id="text1M" className="gradient-text"> Reducing Volatility</h4>
                 <h4 id="text2M" className="gradient-text"> While Providing a Linear and Stable Growth.</h4>
 

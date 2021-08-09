@@ -1,7 +1,8 @@
 import './App.css';
 
 import React, {Component, useEffect, useRef} from 'react';
-
+import { BrowserRouter, Switch, Route, Redirect, HashRouter } from "react-router-dom";
+import {BrowserView, MobileView, isBrowser, isMobile} from "react-device-detect";
 
 // Browser Components
 import NavigationBar from "./components/Navbar/NavigationBar";
@@ -12,7 +13,11 @@ import RoadMap from "./components/RoadMap/RoadMap";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Login from "./components/Login/login";
+import Statistics from "./components/Statistics/Statistics";
 import Community from "./components/Community/Community";
+
+
+import Blog from "./components/Community/Blog";
 
 // Mobile Components
 import NavBarMobile from "./components/Navbar/NavBarMobile";
@@ -25,8 +30,10 @@ import RoadMapMobile from "./components/RoadMap/RoadMapMobile";
 import FooterMobile from "./components/Footer/FooterMobile";
 
 
-import {BrowserView, MobileView, isBrowser, isMobile} from "react-device-detect";
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+
+
+
 
     class App extends React.Component {
 
@@ -76,7 +83,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
                         </div>
                         <body>
 
-                        <div id="Header" className="HeaderSection" data-aos="fade">
+                        <div id="Header" className="HeaderSection" data-aos="fade" data-aos-duration="2000">
                             <Header/>
                         </div>
                         <div id="HeroSection" className="HeroSection" data-aos="fade-up"
@@ -101,9 +108,15 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
                             <RoadMap/>
                         </div>
 
+                        <div className="Satistics" data-aos="fade-up"
+                             data-aos-duration="4000">
+                            <Statistics/>
+                        </div>
+
                         <div className="Community" data-aos="fade-up"
                              data-aos-duration="4000">
                             <Community/>
+
                         </div>
 
                         <div className="Footer">

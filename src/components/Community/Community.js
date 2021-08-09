@@ -1,99 +1,59 @@
-import 'aos/dist/aos.css';
-import React, {Component, useEffect, useState} from "react";
-import axios from 'axios';
-import './Community.css'
-import './Coin.css'
-import {VideoBg} from "../HeroSection/HeroElements";
-import video2 from "../../videos/video3.mp4";
+import React from "react";
+import './Community.css';
+import {Route,HashRouter } from "react-router-dom";
+import Twitter from "./Twitter";
+import Blog from "./Blog";
 
 
-function Community() {
-
-    const PriceUrl = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd";
-
-    const HoldersUrl = "https://api.coingecko.com/api/v3/coins/bitcoin";
-
-    const TransactionUrl = "https://api.coingecko.com/api/v3/coins/bitcoin";
-
-    const [price, setPrice] = useState({});
-
-    const [holders, setHolders] = useState({});
-
-    const [transactions, setTransactions] = useState([]);
-
-    useEffect(() =>
-    {
-        getTransactions();
-    }, []);
-
-    useEffect(() =>
-    {
-        getHolders();
-    }, []);
-
-    const getTransactions = async () =>{
-        const response = await axios.get(TransactionUrl);
-        setTransactions(response.data.market_data.total_volume.usd);
-    }
-
-    const getHolders = async () =>{
-        const response = await axios.get(HoldersUrl);
-        setHolders(response.data.market_data.market_cap.usd);
-    }
-
-    useEffect(() => {
-        getPrice();
-    }, []);
+const Community = () =>  {
 
 
-    const getPrice = async () => {
+    return (
+        <section>
 
-        const response = await axios.get(PriceUrl);
-        setPrice(response.data.bitcoin.usd);
+            <div className="CommunityHeader">
+                <h1 className="gradient-text">Dynamic Network Community</h1>
+            </div>
+        <div className="CommunityContainer">
 
-    };
+            <div className="CommunityItem">
+                <h2>Dynamic Network on Twitter</h2>
+                <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png"/>
 
-            return (
+                <p>Follow us on Twitter to stay updated on whats happening in the network!<br/>
+                    Twitter is the best way to interact fast with the Dynamic Network and to see
 
-                <body>
-                <div id="CommunityHeader" className="CommunityHeader">
-                    <h1 className="gradient-text">Dynamic Network Community</h1>
-                </div>
-                <div id="CommunityContainer" className="CommunityContainer">
+                </p>
+            </div>
+            <div className="CommunityItem">
+                <Twitter/>
+            </div>
 
-                    <div id="CommunityItem" className="CommunityItem">
-                        <h2>DNT Market Cap</h2>
-                        <ul>
-                            {
-                                JSON.stringify(holders)
-                            }  $USD
-                        </ul>
+        </div>
 
-                    </div>
-                    <div id="CommunityItem" className="CommunityItem">
-                        <h2>DNT Price</h2>
+        <div className="CommunityContainer">
 
-                        <ul>
-                            {
-                                JSON.stringify(price)
-                            } $USD
+            <div className="CommunityItem">
+                <h2>Dynamic Network on Medium</h2>
+                <img src="https://img.icons8.com/color/48/000000/medium-monogram.png"/>
+                <p>Follow us on Medium to stay updated on whats happening in the network!<br/>
+                    We frequently update our Medium with new blog posts about the development
+                    for the Dynamic Network and other fun stuff.
+                </p>
 
-                        </ul>
-                    </div>
-                    <div id="CommunityItem" className="CommunityItem">
-                        <h2>DNT 24h Volume</h2>
-                        <ul>
-                            {
-                                JSON.stringify(transactions)
-                            } $USD
+            </div>
 
-                        </ul>
+            <div className="CommunityItem">
+                <HashRouter>
+                    <Route path="/" exact component={Blog}></Route>
+                </HashRouter>
+            </div>
 
-                    </div>
+        </div>
+        </section>
 
-                </div>
+    )
 
-                </body>
-            );
 
-} export default Community;
+
+}; export default Community;

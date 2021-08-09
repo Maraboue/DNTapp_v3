@@ -19,7 +19,7 @@ export const SidebarData = [
     {
         title: 'About',
         url: 'aboutmobile',
-        icon: <FaIcons.FaCartPlus />,
+        icon: <AiIcons.AiFillInfoCircle />,
         cName: 'nav-text'
     },
     {
@@ -31,12 +31,12 @@ export const SidebarData = [
     {
         title: 'Road Map',
         url: 'roadmapmobile',
-        icon: <FaIcons.FaEnvelopeOpenText />,
+        icon: <FaIcons.FaMapMarkedAlt />,
         cName: 'nav-text'
     },
     {
         title: 'Support',
-        path: '/support',
+        url: 'footermobile',
         icon: <IoIcons.IoMdHelpCircle />,
         cName: 'nav-text'
     }

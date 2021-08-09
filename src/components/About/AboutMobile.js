@@ -1,9 +1,8 @@
 import './AboutMobile.css'
 import React, {Component} from "react";
 
-class About extends Component {
+const AboutMobile = () => {
 
-    render() {
 
         return (
             <section className="about_section" id="aboutmobile">
@@ -119,12 +118,10 @@ class About extends Component {
                             The point of using Lorem Ipsum is that it has a more-or-less normal distribution Various
                             versions have evolved over the years, sometim
                             .</p></div>
-
-
                 </div>
 
                 </body>
             </section>
         )
-    }
-} export default About;
+
+}; export default AboutMobile;
