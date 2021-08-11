@@ -19,6 +19,12 @@ export const items = [
         title: 'RoadMap',
         url: 'roadmap',
         name: 'nav-links'
+    },
+
+    {
+        title: 'Community',
+        url: 'community',
+        name: 'nav-links'
     }
 
 ]

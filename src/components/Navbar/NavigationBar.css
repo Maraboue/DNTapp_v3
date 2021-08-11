@@ -23,14 +23,14 @@
 }
 
 #NavLogo {
-    width: 100%;
+    width: 75%;
     height: 100%;
     margin-left: 40px;
 
 }
 
 .nav-items{
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(5, auto);
     grid-gap: 35px;
     list-style: none;

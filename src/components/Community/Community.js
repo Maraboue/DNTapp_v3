@@ -7,7 +7,7 @@ const Community = () =>  {
 
 
     return (
-        <section>
+        <section className="community_section" id="community">
 
             <div className="CommunityHeader">
                 <h1 className="gradient-text">Dynamic Network Community</h1>
