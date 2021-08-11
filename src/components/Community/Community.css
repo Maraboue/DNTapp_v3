@@ -13,6 +13,7 @@
     padding-top: 250px;
     grid-gap: 20px;
 
+
 }
 
 .CommunityItem{
@@ -31,7 +32,8 @@
     font-size: 1.2em;
     text-align: center;
     box-sizing: border-box;
-    overflow: hidden;
+    height: 420px;
+    width: 750px;
 }
 
 .CommunityItem:hover{
