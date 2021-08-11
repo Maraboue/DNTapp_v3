@@ -1,7 +1,7 @@
 import './App.css';
 
 import React, {Component, useEffect, useRef} from 'react';
-import { BrowserRouter, Switch, Route, Redirect, HashRouter } from "react-router-dom";
+
 import {BrowserView, MobileView, isBrowser, isMobile} from "react-device-detect";
 
 // Browser Components
@@ -17,7 +17,6 @@ import Statistics from "./components/Statistics/Statistics";
 import Community from "./components/Community/Community";
 
 
-import Blog from "./components/Community/Blog";
 
 // Mobile Components
 import NavBarMobile from "./components/Navbar/NavBarMobile";
@@ -27,6 +26,7 @@ import LoginMobile from "./components/Login/LoginMobile";
 import AboutMobile from "./components/About/AboutMobile";
 import CardsMobile from './components/Team/CardsMobile';
 import RoadMapMobile from "./components/RoadMap/RoadMapMobile";
+import CommunityMobile from "./components/Community/CommunityMobile";
 import FooterMobile from "./components/Footer/FooterMobile";
 
 
@@ -63,9 +63,12 @@ import FooterMobile from "./components/Footer/FooterMobile";
                          data-aos-duration="4000">
                         <RoadMapMobile/>
                     </div>
+                        <div data-aos="fade-up"
+                             data-aos-duration="4000">
+                            <CommunityMobile/>
+                        </div>
 
-                    <div data-aos="fade-up"
-                         data-aos-duration="4000">
+                    <div data-aos="fade-up">
                         <FooterMobile/>
                     </div>
                     </section>
@@ -107,18 +110,15 @@ import FooterMobile from "./components/Footer/FooterMobile";
                              data-aos-duration="4000">
                             <RoadMap/>
                         </div>
-
-                        <div className="Satistics" data-aos="fade-up"
-                             data-aos-duration="4000">
-                            <Statistics/>
-                        </div>
-
                         <div className="Community" data-aos="fade-up"
                              data-aos-duration="4000">
                             <Community/>
 
                         </div>
-
+                        <div className="Satistics" data-aos="fade-up"
+                             data-aos-duration="4000">
+                            <Statistics/>
+                        </div>
                         <div className="Footer">
                             <Footer/>
                         </div>

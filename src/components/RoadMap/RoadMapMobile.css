@@ -3,7 +3,7 @@
     display: inline-grid;
     justify-content: center;
     align-items: center;
-    background: ghostwhite;
+    background: white;
     margin-left: 5px;
     margin-right: 45px;
     position: center;
@@ -37,7 +37,6 @@
 }
 
 .roadStopM:hover{
-    background: linear-gradient(whitesmoke,#e6f3ff, whitesmoke);
     box-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 20px #2196f3 ;
 }
 
@@ -95,7 +94,7 @@
 
 .contentM p {
     font-size: 1.2em;
-    font-family: "Calibri Light";
+    font-family: "-apple-system";
     opacity: 0;
     transition: 0.5s;
     transform: translateY(100px);

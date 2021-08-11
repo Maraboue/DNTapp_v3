@@ -4,6 +4,11 @@ import './Card.css'
 import graph from "../../pictures/image0.png";
 import graph1 from "../../pictures/image1.png";
 import graph2 from "../../pictures/image2.png";
+import graph3 from "../../pictures/image3.png";
+import graph4 from "../../pictures/image4.png";
+
+import logo from "../../pictures/logotyp.png";
+
 function Tilt(props) {
     const { options, ...rest } = props;
     const tilt = useRef(null);
@@ -28,6 +33,7 @@ class Cards extends React.Component {
 
                     <div id="TeamInfo" className="TeamInfo" data-aos="fade-right">
                         <h1>The Dynamic Team</h1>
+                        <img id="logotype" src={logo} alt="loading..." />
                         <p>
                             The Dynamic Network Team is a small team with a large vision.
                             Consisting of three computer engineers and one human relations expert,
@@ -78,7 +84,7 @@ class Cards extends React.Component {
                     </Tilt>
                     <Tilt div id="card" className="card">
                         <h2>Developer & Advisor</h2>
-                        <img src={graph} alt="loading..." />
+                        <img src={graph3} alt="loading..." />
                         <h3>Carl-Bernhard Hallberg</h3>
                         <a href="https://www.linkedin.com/in/gustaf-sj%C3%B6linder-64084714a/">
                             <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png" alt="Twitter"/>
@@ -97,7 +103,7 @@ class Cards extends React.Component {
 
                     <Tilt div id="card" className="card">
                         <h2>Developer & Adivsor</h2>
-                        <img src={graph2} alt="loading..." />
+                        <img src={graph4} alt="loading..." />
                         <h3>Philip Retelius</h3>
                         <a href="https://www.linkedin.com/in/gustaf-sj%C3%B6linder-64084714a/">
                             <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png" alt="Twitter"/>

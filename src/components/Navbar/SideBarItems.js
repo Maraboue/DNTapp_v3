@@ -35,6 +35,12 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
+        title: 'Community',
+        url: 'communitymobile',
+        icon: <FaIcons.FaHandsHelping />,
+        cName: 'nav-text'
+    },
+    {
         title: 'Support',
         url: 'footermobile',
         icon: <IoIcons.IoMdHelpCircle />,

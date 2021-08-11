@@ -1,0 +1,65 @@
+.blogContainer{
+
+    margin: 10px;
+    display: block;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+}
+
+.blogHeader {
+
+    padding-bottom: 10px;
+    margin-top: -15px;
+    font-family: monospace;
+    font-size: larger;
+}
+
+.Card{
+    margin-top: 10px;
+    padding-bottom: 50px;
+    color: black;
+    position: relative;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    overflow: auto;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    margin-left: 10px;
+
+}
+
+.Card:hover{
+    background: linear-gradient(whitesmoke,#e6f3ff, whitesmoke);
+    color: black;
+    box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 10px #2196f3;
+    overflow: hidden;
+
+}
+
+.Card img{
+
+    width: 15%;
+    border-radius: 10%;
+}
+
+.Card a {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color: #476098;
+    text-decoration: none;
+}
+
+.Card a:hover {
+    text-shadow: -0.1px 0 #0be0f7, 0 0.5px whitesmoke, 1px 0 #0be0f7, 0 -0.1px whitesmoke;
+}
+
+
+#date{
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    font-family: -apple-system;
+    padding-top: 5px;
+    color: #0a2a43;
+}

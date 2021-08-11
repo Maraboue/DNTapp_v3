@@ -96,7 +96,7 @@
 .roadStop .content p {
     font-size: 1.2em;
     color: black;
-    font-family: "Calibri Light";
+    font-family: "-apple-system";
 
     opacity: 0;
     transition: 0.5s;

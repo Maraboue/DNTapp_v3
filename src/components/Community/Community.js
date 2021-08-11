@@ -1,9 +1,7 @@
 import React from "react";
 import './Community.css';
-import {Route,HashRouter } from "react-router-dom";
 import Twitter from "./Twitter";
-import Blog from "./Blog";
-
+import Medium from "./Medium";
 
 const Community = () =>  {
 
@@ -20,9 +18,8 @@ const Community = () =>  {
                 <h2>Dynamic Network on Twitter</h2>
                 <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png"/>
 
-                <p>Follow us on Twitter to stay updated on whats happening in the network!<br/>
-                    Twitter is the best way to interact fast with the Dynamic Network and to see
-
+                <p>Follow us on Twitter to stay updated on whats happening in the network!
+                   <br/><br/> Twitter is the best way to get news and updates about the Dynamic Network.
                 </p>
             </div>
             <div className="CommunityItem">
@@ -37,16 +34,14 @@ const Community = () =>  {
                 <h2>Dynamic Network on Medium</h2>
                 <img src="https://img.icons8.com/color/48/000000/medium-monogram.png"/>
                 <p>Follow us on Medium to stay updated on whats happening in the network!<br/>
-                    We frequently update our Medium with new blog posts about the development
-                    for the Dynamic Network and other fun stuff.
+                    <br/><br/>   We frequently update our Medium with new blog posts about the development
+                    for the Dynamic Network.
                 </p>
 
             </div>
 
             <div className="CommunityItem">
-                <HashRouter>
-                    <Route path="/" exact component={Blog}></Route>
-                </HashRouter>
+                <Medium/>
             </div>
 
         </div>

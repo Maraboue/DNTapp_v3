@@ -8,6 +8,7 @@ const Twitter = () => {
         <div className="centerContent">
             <div className="selfCenter standardWidth">
                 <TwitterTimelineEmbed sourceType="collection" id="1419723351342333953" options={{height: 400}} />
+                <TwitterTimelineEmbed sourceType="profile" screenName="dynamicn3twork" options={{height: 400}} />
             </div>
         </div>
     )

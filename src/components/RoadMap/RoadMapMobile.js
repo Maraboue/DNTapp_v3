@@ -2,9 +2,8 @@ import React, { Component } from 'react'
 import './RoadMapMobile.css'
 
 
-class RoadMapMobile extends Component {
+const RoadMapMobile = ()=>  {
 
-    render () {
         return (
             <section className="roadmap_section" id="roadmapmobile">
                 <body>
@@ -65,5 +64,5 @@ class RoadMapMobile extends Component {
                 </body>
             </section>
         )
-    }
-} export default RoadMapMobile;
+
+}; export default RoadMapMobile;
