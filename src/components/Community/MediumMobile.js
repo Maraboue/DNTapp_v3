@@ -32,7 +32,7 @@ const MediumMobile = () => {
     const newArray = mediumData.slice(0, 3);
 
     return (
-        <div id="blog" className="blogContainer">
+        <div id="blog" className="blogContainerM">
             <h3 className="blogHeaderM">
                 <p>Latest Posts</p>
             </h3>
@@ -41,13 +41,13 @@ const MediumMobile = () => {
                 {newArray.map(article => (
                     <Col md="4" className="mb-3" key={article.guid}>
                         <div>
-                            <div className="Card">
+                            <div className="CardM">
                                 <img  src={article.thumbnail} alt="img" />
                                 <CardBody>
                                     <CardTitle>
                                         <a href={article.link}>{article.title}</a>
                                     </CardTitle>
-                                    <div className="date" id="date">
+                                    <div className="date" id="dateM">
                                         Published:{" "}
                                         {moment(article.pubDate).format("dddd, MMMM Do YYYY")}
                                     </div>

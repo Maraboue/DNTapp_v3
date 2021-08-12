@@ -6,6 +6,7 @@
     grid-template-columns: auto auto;
     background-color: transparent;
     margin-right: -10px;
+
 }
 
 .CommunityItemM{
@@ -25,8 +26,9 @@
     text-align: center;
     padding-top: 20px;
     padding-right: -30px;
-    margin-left: 10px;
-    overflow: scroll;
+    margin-left: 30px;
+    height: 420px;
+    width: 350px;
 }
 
 .CommunityItemM:hover{
@@ -65,10 +67,10 @@
     color: #476098;
 }
 
-.CommunityItem p{
+.CommunityItemM p{
     margin-top: 25px;
     align-content: center;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
 }
 
 .CommunityItem img{

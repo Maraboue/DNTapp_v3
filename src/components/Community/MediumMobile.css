@@ -5,6 +5,8 @@
     grid-template-columns: auto auto auto;
     overflow: scroll;
     padding-right: -10px;
+    height: 420px;
+    width: 350px;
 }
 
 .blogHeaderM {
@@ -26,8 +28,8 @@
     border-top: 1px solid rgba(255,255,255,0.5);
     border-left: 1px solid rgba(255,255,255,0.5);
     backdrop-filter: blur(5px);
-    margin-left: 10px;
-    overflow: scroll;
+    margin-left: 20px;
+    width: 300px;
 }
 
 .Card:hover{
@@ -38,25 +40,25 @@
 
 }
 
-.Card img{
+.CardM img{
 
     width: 15%;
     border-radius: 10%;
 }
 
-.Card a {
+.CardM a {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-weight: bolder;
     color: #476098;
     text-decoration: none;
 }
 
-.Card a:hover {
+.CardM a:hover {
     text-shadow: -0.1px 0 #0be0f7, 0 0.5px whitesmoke, 1px 0 #0be0f7, 0 -0.1px whitesmoke;
 }
 
 
-#date{
+#dateM{
     font-weight: normal;
     letter-spacing: 1.5px;
     font-family: -apple-system;
