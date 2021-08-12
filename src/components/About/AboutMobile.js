@@ -74,29 +74,17 @@ const AboutMobile = () => {
                     <div id="AboutItemM" className="AboutItemM">
 
                         <h1>Results</h1>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its layout.
-                            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                            as opposed to using 'Content here, content here',
-                            making it look like readable English. Many desktop publishing packages and web page editors
-                            now use Lorem Ipsum as their default model text,
-                            and a search for 'lorem ipsum' will uncover many web sites still in their
-                            infancy. <br/><br/>
-                            Various versions have evolved over the years, sometimes by accident,
-                            sometimes on purpose (injected humour and the like).The point of using Lorem Ipsum is that
-                            it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
-                            content here',
-                            making it look like readable English.<br/><br/> Many desktop publishing packages and web
-                            page editors now use Lorem Ipsum as their default model text,
-                            and a search for 'lorem ipsum' will uncover many web sites still in their
-                            infancy. <br/><br/>Various versions have evolved over the years, sometimes by accident,
-                            sometimes on purpose (injected humour and the like). It is a long established fact that a
-                            reader will be distracted by the readable content of a page when looking at its layout.
-                            The point of using Lorem Ipsum is that it has a more-or-less normal distribution Various
-                            versions have evolved over the years, sometim
-                            Various versions have evolved over the years, sometim Various versions
-
-                            .</p></div>
+                            <p> To test the functionality of burning and minting, a developed Java-program was used that simulates transactions.
+                                In order to be able to compare the impact/effect that burning and minting has on reducing volatility, simulations
+                                of transactions were performed with dynamic burning and minting implemented versus without the functionality implemented.
+                                <br/> <br/>
+                                All iterations for the price evolution without dynamic minting and burning resulted in an average sigma or standard
+                                deviation of 0,44774127. Meaning that the price without the dynamic functionality experienced high volatility.
+                                <br/> <br/>
+                                The different price evolution for the dynamic minting and burning price resulted in an average standard deviation of
+                                0,38645927. Showing that the impact that the dynamic functionality had on price growth resulted in a reduction of volatility. <br/> <br/>
+                                The result shows that over these iterations with burning and minting, volatility is reduced by <strong>6,128%</strong> compared to how the price
+                                is affected without the implemented functionality.</p></div>
                     <div id="AboutItemM" className="AboutItemM">
 
                         <h1>Vision</h1>
