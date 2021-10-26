@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The official web-app for the [Dynamic Network](https://www.dynamicnetworktoken.com/).
 
 ## Available Scripts
 
