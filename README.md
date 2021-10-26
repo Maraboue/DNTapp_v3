@@ -4,9 +4,11 @@ The official web-app for the [Dynamic Network](https://www.dynamicnetworktoken.c
 
 ## Dynamic Network on Social Media
 
-[Dynamic Network @ Twitter ](https://twitter.com/DynamicN3twork).
-[Dynamic Network @ Discord ](https://discord.gg/2d7PNevWJv).
-[Dynamic Network @ Medium ](https://medium.com/@dynamic-network).
+[Dynamic Network @ Twitter ](https://twitter.com/DynamicN3twork)
+
+[Dynamic Network @ Discord ](https://discord.gg/2d7PNevWJv)
+
+[Dynamic Network @ Medium ](https://medium.com/@dynamic-network)
 
 
 ## Contact us 
