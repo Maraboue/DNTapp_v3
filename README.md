@@ -1,6 +1,6 @@
 ## Dynamic Network Website
 
-The official web-app for the [Dynamic Network](https://www.dynamicnetworktoken.com/).
+The official web-app for the [Dynamic Network](https://www.dynamicnetworktoken.com/)
 
 ## Dynamic Network on Social Media
 
