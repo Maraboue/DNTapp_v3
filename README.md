@@ -1,3 +1,5 @@
+## Dynamic Network Website
+
 The official web-app for the [Dynamic Network](https://www.dynamicnetworktoken.com/).
 
 ## Available Scripts
